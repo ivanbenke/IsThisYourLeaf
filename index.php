@@ -20,8 +20,8 @@ if (isset($properties)) {
 			'GlobalParameters' => null
 		);
 		$requestData = json_encode($data);
-		define("WEB_SERVICE_URL", "https://ussouthcentral.services.azureml.net/workspaces/c3e11386b6984d51b2b184c8c062fa7e/services/8387dd57c0d442ac81109dda9d50531b/execute?api-version=2.0&details=true");
-		define("API_KEY", "HKprVrsuhkm82rZlyLRI0JP1tKsC3PlX9F9bGB9QlKUDmoTYflaqos8zY6I4qhAkTSHy/u5IQfNKwrao/s414w==");
+		define("WEB_SERVICE_URL", "https://ussouthcentral.services.azureml.net/workspaces/7859d00704744697aa7539521472e1c1/services/20fbb6a0de094bfa8042db2a46474056/execute?api-version=2.0&details=true");
+		define("API_KEY", "Ays1lEz5v8imgV9JLPKCbB/oBU5nAXZDN4f5C7kGpSdY/NzHiFCSAkLFez2wifGYPqiIJbhYWrfjEDYaJx2GXA==");
 		$requestHeader = array(
 			"Authorization:Bearer " . API_KEY,
 			"Content-Length:" . strlen($requestData),
